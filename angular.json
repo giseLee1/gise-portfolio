@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "938cf6c5-67af-49b9-88fb-bbfef533994b"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -7,6 +10,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
+          "skipTests": true,
           "style": "scss"
         }
       },
