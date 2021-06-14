@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
-import { TestComponent } from './test/test.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -14,7 +13,6 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     HomeComponent,
-    TestComponent,
     HeaderComponent,
     FooterComponent
   ],
